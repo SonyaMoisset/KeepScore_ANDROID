@@ -6,7 +6,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="ScoreButtons" parent="Widget.AppCompat.Button">
+    <style name="ScoreButtons" parent="AppTheme">">
         <item name="android:background">@drawable/button_background</item>
     </style>
 
@@ -18,6 +18,10 @@
     <style name="MinusButtons" parent="ScoreButtons">
         <item name="android:src">@drawable/ic_minus</item>
         <item name="android:contentDescription">@string/minus_button</item>
+    </style>
+
+    <style name="ScoreText">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Headline</item>
     </style>
 
 </resources>
